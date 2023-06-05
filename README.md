@@ -2,6 +2,8 @@
 
 Parses cue files from Rekordbox's recordings to produce readable, markdown-friendly playlists.
 
+I needed a similar utility, I've seen there are many of them out there, but I wanted to make a more portable one while playing with Rust.
+
 ## Usage
 
 ```sh
