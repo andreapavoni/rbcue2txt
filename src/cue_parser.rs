@@ -13,7 +13,7 @@ pub fn run(cue_file_path: &str) -> Result<Vec<TrackInfo>, Box<dyn error::Error>>
     let file_content = match fs::read_to_string(cue_file_path) {
         Ok(content) => content,
         Err(err) => {
-            println!("Failed to read cue file: {}", err);
+            println!("Failed to read cue file: {err}");
             return Err(Box::new(err));
         }
     };
@@ -51,7 +51,6 @@ pub fn run(cue_file_path: &str) -> Result<Vec<TrackInfo>, Box<dyn error::Error>>
 
     Ok(outputs)
 }
-
 
 #[cfg(test)]
 mod tests {
