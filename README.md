@@ -85,7 +85,7 @@ And in markdown it would be like this:
 
 ---
 
-### Notes
+### Notes
 Tested against Rekordbox 6 cue sheets on MacOS.
 
 ## Installation
