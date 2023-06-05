@@ -13,79 +13,44 @@ rbcue2txt <path to cue file>
 Will output the playlist in this format:
 
 ```
-- 00:00:02: Giuseppe Surace - Shot You Down (Original Mix)
-
-- 00:03:06: Aldo Cadiz - Tzu-Mani
-
-- 00:07:49: Gerd Janson - Never Saw Never
-
-- 00:10:49: Alberto Dimeo - Fuego Fuego
-
-- 00:14:23: Aitor Astiz - Ta Gringa
-
-- 00:17:18: Donato Dozzy - Parola (Black Fancy Mix)
-
-- 00:21:16: Superlover - Piano Pump
-
-- 00:27:57: Madison Avenue - Don't Call Me Baby (Joshwa Remix)
-
-- 00:30:02: Django Django - Don't Touch That Dial (feat. Yuuko Sings) (Earthworks Acid Hip-House Remix)
-
-- 00:32:02: Anatta - Tobacco Docks
-
-- 00:33:24: Django Django - Don't Touch That Dial (feat. Yuuko Sings) (Earthworks Acid Hip-House Remix)
-
-- 00:36:02: COLOR.LOVE - Bad Bitch (Original Mix)
-
-- 00:39:17: Uffie - ADD SUV (feat. Pharrell Williams)
-
-- 00:42:53: Spellband,ManuLele - DiscoParty - Monkey Mix
-
-- 00:47:02: DANK.K - Simple Rave In a Buffalo Herd
-
-- 00:52:36: Mathias Kaden - Red Walls
-
-- 00:57:02: Super Flu - Super Flu 3 < Isaac
-
+- [00:00:02] Giuseppe Surace - Shot You Down (Original Mix)
+- [00:03:06] Aldo Cadiz - Tzu-Mani
+- [00:07:49] Gerd Janson - Never Saw Never
+- [00:10:49] Alberto Dimeo - Fuego Fuego
+- [00:14:23] Aitor Astiz - Ta Gringa
+- [00:17:18] Donato Dozzy - Parola (Black Fancy Mix)
+- [00:21:16] Superlover - Piano Pump
+- [00:27:57] Madison Avenue - Don't Call Me Baby (Joshwa Remix)
+- [00:30:02] Django Django - Don't Touch That Dial (feat. Yuuko Sings) (Earthworks Acid Hip-House Remix)
+- [00:32:02] Anatta - Tobacco Docks
+- [00:33:24] Django Django - Don't Touch That Dial (feat. Yuuko Sings) (Earthworks Acid Hip-House Remix)
+- [00:36:02] COLOR.LOVE - Bad Bitch (Original Mix)
+- [00:39:17] Uffie - ADD SUV (feat. Pharrell Williams)
+- [00:42:53] Spellband,ManuLele - DiscoParty - Monkey Mix
+- [00:47:02] DANK.K - Simple Rave In a Buffalo Herd
+- [00:52:36] Mathias Kaden - Red Walls
+- [00:57:02] Super Flu - Super Flu 3 < Isaac
 ```
 
 And in markdown it would be like this:
 
-- 00:00:02: Giuseppe Surace - Shot You Down (Original Mix)
-
-- 00:03:06: Aldo Cadiz - Tzu-Mani
-
-- 00:07:49: Gerd Janson - Never Saw Never
-
-- 00:10:49: Alberto Dimeo - Fuego Fuego
-
-- 00:14:23: Aitor Astiz - Ta Gringa
-
-- 00:17:18: Donato Dozzy - Parola (Black Fancy Mix)
-
-- 00:21:16: Superlover - Piano Pump
-
-- 00:27:57: Madison Avenue - Don't Call Me Baby (Joshwa Remix)
-
-- 00:30:02: Django Django - Don't Touch That Dial (feat. Yuuko Sings) (Earthworks Acid Hip-House Remix)
-
-- 00:32:02: Anatta - Tobacco Docks
-
-- 00:33:24: Django Django - Don't Touch That Dial (feat. Yuuko Sings) (Earthworks Acid Hip-House Remix)
-
-- 00:36:02: COLOR.LOVE - Bad Bitch (Original Mix)
-
-- 00:39:17: Uffie - ADD SUV (feat. Pharrell Williams)
-
-- 00:42:53: Spellband,ManuLele - DiscoParty - Monkey Mix
-
-- 00:47:02: DANK.K - Simple Rave In a Buffalo Herd
-
-- 00:52:36: Mathias Kaden - Red Walls
-
-- 00:57:02: Super Flu - Super Flu 3 < Isaac
-
----
+- [00:00:02] Giuseppe Surace - Shot You Down (Original Mix)
+- [00:03:06] Aldo Cadiz - Tzu-Mani
+- [00:07:49] Gerd Janson - Never Saw Never
+- [00:10:49] Alberto Dimeo - Fuego Fuego
+- [00:14:23] Aitor Astiz - Ta Gringa
+- [00:17:18] Donato Dozzy - Parola (Black Fancy Mix)
+- [00:21:16] Superlover - Piano Pump
+- [00:27:57] Madison Avenue - Don't Call Me Baby (Joshwa Remix)
+- [00:30:02] Django Django - Don't Touch That Dial (feat. Yuuko Sings) (Earthworks Acid Hip-House Remix)
+- [00:32:02] Anatta - Tobacco Docks
+- [00:33:24] Django Django - Don't Touch That Dial (feat. Yuuko Sings) (Earthworks Acid Hip-House Remix)
+- [00:36:02] COLOR.LOVE - Bad Bitch (Original Mix)
+- [00:39:17] Uffie - ADD SUV (feat. Pharrell Williams)
+- [00:42:53] Spellband,ManuLele - DiscoParty - Monkey Mix
+- [00:47:02] DANK.K - Simple Rave In a Buffalo Herd
+- [00:52:36] Mathias Kaden - Red Walls
+- [00:57:02] Super Flu - Super Flu 3 < Isaac
 
 ### Notes
 Tested against Rekordbox 6 cue sheets on MacOS.
