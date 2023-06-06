@@ -2,13 +2,20 @@
 name = "rbcue2txt"
 description = "Converts rekordbox cue files to text"
 authors = ["Andrea Pavoni <andrea.pavoni@gmail.com>"]
-version = "0.2.0"
+version = "0.2.1"
 repository = "https://github.com/andreapavoni/rbcue2txt"
-license = "MIT"
 keywords = ["rekordbox", "cue-file"]
 rust-version = "1.67"
 edition = "2021"
 publish = false
+license = "MIT"
+
+[profile.release]
+panic = "abort"
+strip = true
+opt-level = "z" 
+lto = true
+codegen-units = 1
 
 [dependencies]
 regex = "1.8.3"
