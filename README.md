@@ -1,5 +1,7 @@
 # RbCue2Txt
 
+[![CI](https://github.com/andreapavoni/rbcue2txt/actions/workflows/ci.yml/badge.svg)](https://github.com/andreapavoni/rbcue2txt/actions/workflows/ci.yml)
+
 Parses cue files from Rekordbox's recordings to produce readable, markdown-friendly playlists.
 
 I needed a similar utility, I've seen there are many of them out there, but I wanted to make a more portable one while playing with Rust.
@@ -23,7 +25,9 @@ And in markdown it would look like this:
 
 - [00:00:02] Giuseppe Surace - Shot You Down (Original Mix)
 - [00:03:06] Aldo Cadiz - Tzu-Mani
+
 ...
+
 - [00:57:02] Super Flu - Super Flu 3 < Isaac
 
 
