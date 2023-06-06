@@ -10,11 +10,15 @@ fn main() {
         return;
     }
 
-    let format = if args.len() == 3 { &args[2] } else { "- [%T] %A - %N" };
+    let format = if args.len() == 3 {
+        &args[2]
+    } else {
+        "- [%T] %A - %N"
+    };
 
     if let Ok(cue_sheet) = rb_cue::CueSheet::new(&args[1]) {
         for t in cue_sheet.playlist.into_iter() {
-            println!("{}", t.format(&format));
+            println!("{}", t.format(format));
         }
     }
 }

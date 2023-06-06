@@ -11,13 +11,10 @@ pub struct TrackInfo {
 
 impl TrackInfo {
     pub fn format(&self, format: &str) -> String {
-        format!(
-            "{}",
-            format
-                .replace("%T", &self.time)
-                .replace("%A", &self.artist)
-                .replace("%N", &self.title)
-        )
+        format
+            .replace("%T", &self.time)
+            .replace("%A", &self.artist)
+            .replace("%N", &self.title)
     }
 }
 
