@@ -1,17 +1,20 @@
 use std::env;
 
-mod cue_parser;
+mod rb_cue;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    if args.len() != 2 {
-        println!("Please provide the path to the .cue file as a command-line argument");
+    if args.len() != 2 && args.len() != 3 {
+        println!("Please provide the path to the .cue file.");
+        println!("Optionally, you can provide the desired format as a second argument");
         return;
     }
 
-    if let Ok(outputs) = cue_parser::run(&args[1]) {
-        for t in outputs.into_iter() {
-            println!("- [{}] {} - {}", t.time, t.artist, t.title);
+    let format = if args.len() == 3 { &args[2] } else { "- [%T] %A - %N" };
+
+    if let Ok(cue_sheet) = rb_cue::CueSheet::new(&args[1]) {
+        for t in cue_sheet.playlist.into_iter() {
+            println!("{}", t.format(&format));
         }
     }
 }
